@@ -1,0 +1,152 @@
+[
+  {
+    "invoice_id": 1,
+    "client_name": "Rodrigo Alexander",
+    "client_type": "in state",
+    "date": "14/01/2023",
+    "due_date": "21/01/2023",
+    "total": 967,
+    "balance": 967,
+    "status": "paid"
+  },
+  {
+    "invoice_id": 2,
+    "client_name": "Gavin Richards",
+    "client_type": "in state",
+    "date": "09/01/2023",
+    "due_date": "16/01/2023",
+    "total": 749,
+    "balance": 749,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 3,
+    "client_name": "Ryker Roach",
+    "client_type": "in state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 880,
+    "balance": 880,
+    "status": "paid"
+  },
+  {
+    "invoice_id": 4,
+    "client_name": "Ulises Montoya",
+    "client_type": "in state",
+    "date": "10/01/2023",
+    "due_date": "17/01/2023",
+    "total": 996,
+    "balance": 996,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 5,
+    "client_name": "Max Gay",
+    "client_type": "out state",
+    "date": "11/01/2023",
+    "due_date": "18/01/2023",
+    "total": 942,
+    "balance": 942,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 6,
+    "client_name": "Orlando Taylor",
+    "client_type": "in state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 915,
+    "balance": 915,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 7,
+    "client_name": "Cedric Schroeder",
+    "client_type": "out state",
+    "date": "13/01/2023",
+    "due_date": "20/01/2023",
+    "total": 880,
+    "balance": 880,
+    "status": "partial payment"
+  },
+  {
+    "invoice_id": 8,
+    "client_name": "Sam Warren",
+    "client_type": "in state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 833,
+    "balance": 833,
+    "status": "partial payment"
+  },
+  {
+    "invoice_id": 9,
+    "client_name": "Phillip Ortiz",
+    "client_type": "in state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 980,
+    "balance": 980,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 10,
+    "client_name": "Emmett Hood",
+    "client_type": "in state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 854,
+    "balance": 854,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 11,
+    "client_name": "Dale Hobbs",
+    "client_type": "in state",
+    "date": "06/01/2023",
+    "due_date": "13/01/2023",
+    "total": 835,
+    "balance": 835,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 12,
+    "client_name": "Trevor Love",
+    "client_type": "in state",
+    "date": "07/01/2023",
+    "due_date": "14/01/2023",
+    "total": 884,
+    "balance": 884,
+    "status": "partial payment"
+  },
+  {
+    "invoice_id": 13,
+    "client_name": "Callum Cowan",
+    "client_type": "in state",
+    "date": "11/01/2023",
+    "due_date": "18/01/2023",
+    "total": 724,
+    "balance": 724,
+    "status": "partial payment"
+  },
+  {
+    "invoice_id": 14,
+    "client_name": "Angel Franklin",
+    "client_type": "out state",
+    "date": "11/01/2023",
+    "due_date": "18/01/2023",
+    "total": 849,
+    "balance": 849,
+    "status": "draft"
+  },
+  {
+    "invoice_id": 15,
+    "client_name": "Elijah Suarez",
+    "client_type": "out state",
+    "date": "12/01/2023",
+    "due_date": "19/01/2023",
+    "total": 981,
+    "balance": 981,
+    "status": "paid"
+  }
+]

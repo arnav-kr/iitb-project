@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice</title>
+  <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <script src="./static/js/bootstrap.bundle.min.js"></script>
+  <script src="./static/js/script.js"></script>
+</head>
+
+<body>
+  <main>
+    <section class="filter-options rounded-4 m-4 p-4 pb-2">
+      <p class="fs-5 fw-semibold section-title">All Invoices</p>
+      <form class="row gy-2 gx-4 align-items-center">
+
+        <!-- Begin Date Input -->
+        <div class="col-auto">
+          <label for="begin_date" class="form-label fw-semibold">Begin Date</label>
+          <div class="input-group">
+            <input type="date" class="form-control filter_input" id="begin_date">
+          </div>
+        </div>
+
+        <!-- End Date Input -->
+        <div class="col-auto">
+          <label for="due_date" class="form-label fw-semibold">Due Date</label>
+          <div class="input-group">
+            <input type="date" class="form-control filter_input" id="due_date">
+          </div>
+        </div>
+
+        <!-- Status Input -->
+        <div class="col-auto">
+          <label for="status" class="form-label fw-semibold">Status</label>
+          <div class="input-group">
+            <select class="form-select filter_input" id="status">
+              <option value="">Any</option>
+              <option value="paid">Paid</option>
+              <option value="draft">Draft</option>
+              <option value="partial payment">Partial Payment</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Client Type Input -->
+        <!-- in-state | out-state -->
+        <div class="col-auto">
+          <label for="client_type" class="form-label fw-semibold">Client</label>
+          <div class="input-group">
+            <select class="form-select filter_input" id="client_type">
+              <option value="">Any</option>
+              <option value="in state">In-State</option>
+              <option value="out state">Out-State</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <p class="form-text mt-4">*This data has been shown according to the given informations</p>
+    </section>
+
+    <section class="m-4">
+      <table id="users" class="table overflow-auto">
+        <thead class="">
+          <!-- Table Column Headings -->
+          <tr class="rounded-4">
+
+            <th>
+              <span>Invoice</span>
+              <button title="Sort Data" type="button" class="sort" data-target="invoice_id">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Client Name</span>
+              <button title="Sort Data" type="button" class="sort" data-target="client_name">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Type</span>
+              <button title="Sort Data" type="button" class="sort" data-target="client_type">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Date</span>
+              <button title="Sort Data" type="button" class="sort" data-target="date">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Due Date</span>
+              <button title="Sort Data" type="button" class="sort" data-target="due_date">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Total</span>
+              <button title="Sort Data" type="button" class="sort" data-target="total">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Balance</span>
+              <button title="Sort Data" type="button" class="sort" data-target="balance">
+                <span class="sort_icon"></span></button>
+            </th>
+
+            <th>
+              <span>Status</span>
+              <button title="Sort Data" type="button" class="sort" data-target="status">
+                <span class="sort_icon"></span></button>
+            </th>
+
+          </tr>
+
+          <!-- Seperates table heading with table body -->
+          <tr class="seperator-row">
+            <td colspan="8"></td>
+          </tr>
+
+        </thead>
+        <tbody>
+          <!-- Users will be inserted here using JS -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+
+</html>

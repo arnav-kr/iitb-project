@@ -1,0 +1,157 @@
+body {
+  background-color: #f6f6fe;
+}
+
+/* filter sectin title color */
+.section-title {
+  color: #f46c78;
+}
+
+/*** style the inputs ***/
+#begin_date {
+  --bs-form-control-bg: #5858ba;
+  color: #ffffff;
+}
+
+#due_date {
+  --bs-form-control-bg: #9fa3e0;
+  color: #ffffff;
+}
+
+#status {
+  --bs-form-control-bg: #6f8efa;
+  color: #ffffff;
+  cursor: pointer;
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23fafafa' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+#client_type {
+  --bs-form-control-bg: #f46c78;
+  color: #ffffff;
+  cursor: pointer;
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23fafafa' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+input[type="date" i]::-webkit-calendar-picker-indicator {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjAgM2gtMVYxaC0ydjJIN1YxSDV2Mkg0Yy0xLjEgMC0yIC45LTIgMnYxNmMwIDEuMS45IDIgMiAyaDE2YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMThINFY4aDE2djEzeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4=);
+}
+
+/* make background white by default */
+td,
+th {
+  background-color: #ffffff !important;
+  padding: 1.5rem 0.5rem !important;
+}
+
+/* add a bit left spacing to first columns */
+tr td:first-child,
+tr th:first-child {
+  padding-left: 2rem !important;
+}
+
+/* Filter section background */
+.filter-options {
+  background-color: #f5e9eb;
+}
+
+/* Sort icon for table properties */
+.sort {
+  border: none;
+  background: none;
+  padding: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SVG sort icon */
+.sort_icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktY2hldnJvbi1leHBhbmQiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjODA4MDgwIiBkPSJNMy42NDYgOS4xNDZhLjUuNSAwIDAgMSAuNzA4IDBMOCAxMi43OTNsMy42NDYtMy42NDdhLjUuNSAwIDAgMSAuNzA4LjcwOGwtNCA0YS41LjUgMCAwIDEtLjcwOCAwbC00LTRhLjUuNSAwIDAgMSAwLS43MDh6bTAtMi4yOTJhLjUuNSAwIDAgMCAuNzA4IDBMOCAzLjIwN2wzLjY0NiAzLjY0N2EuNS41IDAgMCAwIC43MDgtLjcwOGwtNC00YS41LjUgMCAwIDAtLjcwOCAwbC00IDRhLjUuNSAwIDAgMCAwIC43MDh6IiAvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  width: 16px;
+  height: 12px;
+  margin-left: 4px;
+}
+
+/* Seperator Row between table head and body */
+.seperator-row {
+  height: 2rem;
+  border-color: transparent;
+}
+.seperator-row > td {
+  background-color: transparent !important;
+}
+
+/* Remove Excess Border on Header Row and last row of body row */
+thead tr:first-child,
+tbody tr:last-child {
+  border-color: transparent;
+}
+
+/* Table Head Section Roundness */
+thead tr:first-child > th:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+
+thead tr:first-child > th:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+
+/* Table Body Section Roundness */
+
+tbody tr:first-child > td:first-child {
+  border-radius: 1rem 0 0 0;
+}
+
+tbody tr:first-child > td:last-child {
+  border-radius: 0 1rem 0 0;
+}
+
+tbody tr:last-child > td:first-child {
+  border-radius: 0 0 0 1rem;
+}
+
+tbody tr:last-child > td:last-child {
+  border-radius: 0 0 1rem 0;
+}
+
+/*** Cell Text Colors ***/
+
+tr > td:first-child,
+tr > td:nth-child(2) {
+  color: #5858ba;
+}
+
+tr > td:nth-child(3),
+tr > td:nth-child(4),
+tr > td:nth-child(5) {
+  color: #808080;
+}
+
+tr > td:nth-child(6),
+tr > td:nth-child(7) {
+  color: #f58c93;
+}
+
+/* dollar prefix on currency */
+
+tr > td:nth-child(6) > span::before,
+tr > td:nth-child(7) > span::before {
+  content: "$";
+}
+
+/*** Badge ***/
+.badge {
+  text-transform: capitalize;
+}
+.badge[data-value="paid"] {
+  background-color: #6f8efa;
+}
+.badge[data-value="draft"] {
+  background-color: #f58c93;
+}
+.badge[data-value="partial payment"] {
+  background-color: #5858ba;
+}
