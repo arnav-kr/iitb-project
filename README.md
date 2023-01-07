@@ -66,4 +66,4 @@ Bootstrap components used:
 
 ### Screenshots
 
-![Screenshot]()
+![Screenshot](https://arnav.is-a.dev/iitb-project/screenshot.jpg)
